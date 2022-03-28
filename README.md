@@ -1,7 +1,7 @@
 # CZ3004 Multidisplinary Project - Image Recognition
 
 Experimented with 2 models, YOLOv4-tiny and YOLOv5, ended up going with the YOLOv5 model as it performed better under extreme lighting situations outdoors.
-Image recognition was done on my PC (not in the RPi) a REST API with Flask was used to load the model at the start of the run and to pass the image ID of the image detected to the RPi. 
+Image recognition was done on my PC (not in the RPi) & a REST API with Flask was used to load the model at the start of the run and to pass the image ID of the image detected to the RPi. 
 
 **My Dataset**
 - Images and text files with annotations: https://www.kaggle.com/nailahgpgucon/
