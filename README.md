@@ -1,7 +1,7 @@
 # CZ3004 Multidisplinary Project - Image Recognition
 
 Experimented with 2 models, YOLOv4-tiny and YOLOv5, ended up going with the YOLOv5 model as it performed better under extreme lighting situations outdoors.
-Image recognition was done on my PC (not in the RPi), used a REST API with Flask to load the model at the start of the run and to pass the image ID of the image detected to the RPi.
+Image recognition was done on my PC (not in the RPi) a REST API with Flask was used to load the model at the start of the run and to pass the image ID of the image detected to the RPi. 
 
 **My Dataset**
 - Images and text files with annotations: https://www.kaggle.com/nailahgpgucon/
@@ -20,4 +20,12 @@ Depending on your choice of YOLOv4 and YOLOv5, Roboflow provides a Google Colab 
 
 **Deployment to PC and Connection to RPI**
 
+##### Prerequisites:
+- Python 3.7** (https://www.python.org/downloads/) 
+- Anaconda Prompt (https://docs.anaconda.com/anaconda/install/windows/)
+- Git Bash (https://git-scm.com/)
+
+** May work with other Python versions but had the least issues with installation of other required libraries with Python 3.7
+
+##### Procedure:
 TO-DO
