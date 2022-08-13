@@ -27,5 +27,18 @@ Depending on your choice of YOLOv4 and YOLOv5, Roboflow provides a Google Colab 
 
 ** May work with other Python versions but had the least issues with installation of other required libraries with Python 3.7
 
-##### Procedure:
-TO-DO
+##### Link to Model:
+
+(Too large to upload to github): 
+
+https://entuedu-my.sharepoint.com/:u:/g/personal/nailahgi001_e_ntu_edu_sg/Ed4NvBmPRS1PihesFMHGr60BV4G9r48pa0F-iC27cH2kBQ?e=PhI3uq
+
+*Put best.pt in model folder*
+
+##### Code Used:
+
+```code
+uvicorn main:app --reload --host localhost --port 8000
+```
+
+*Establish connection with RPi first (your team's RPi may vary)*
