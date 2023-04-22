@@ -78,7 +78,7 @@ six==1.16.0
     #   python-multipart
 starlette==0.14.2
     # via fastapi
-torch==1.9.1
+torch==1.13.1
     # via
     #   -r requirements.in
     #   torchvision
